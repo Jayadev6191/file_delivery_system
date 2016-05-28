@@ -7,7 +7,9 @@
 	<body>
 		<form id="file">
 			<input type="email" required="true" />
+			<br />
 			<input type="file" value="Add file"/>
+			<br />
 			<input type="submit" value="send file"/>
 		</form>
 	</body>
@@ -31,8 +33,8 @@
 		    });
 
 		    delivery.on('send.success',function(fileUID){
-      console.log("file was successfully sent.");
-    });
+		      console.log("file was successfully sent.");
+		    });
 		});
 
 	</script>
